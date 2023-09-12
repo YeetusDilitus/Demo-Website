@@ -1,0 +1,85 @@
+/* GENERAL STYLING */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+
+/* TRANSITION STYLES */
+
+a, .btn {
+  transition: all 300ms ease;
+}
+
+
+/* DESKTOP NAVIGATION STYLES */
+
+nav, 
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  text-decoration-color: #fff;
+}
+a:hover {
+  color: rgb(181, 181, 181);
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+  font-size: 1.8rem;
+  cursor: default;
+}
+
+
+/* HAMBURGER MENU STYLES */
+
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
