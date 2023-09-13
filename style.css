@@ -11,7 +11,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   /* background-color: #111111; */
-  background-image: url(./assets/background2.jpg);
+  background-image: url(./assets/background.jpg);
   background-size: cover;
 }
 
@@ -40,8 +40,8 @@ nav, .nav-links {
 nav {
   justify-content: space-between;
   align-items: center;
-  height: 6vh;
-  background-color: #b4b3b347;
+  height: 7vh;
+  background-color: #323232;
   user-select: none;
 }
 
@@ -83,28 +83,12 @@ a:hover {
   display: inline-block;
 }
 
-.hamburger-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 24px;
-  width: 30px;
-  cursor: pointer;
-}
-
-.hamburger-icon span {
-  width: 100%;
-  height: 2px;
-  background-color: #fff;
-  transition: all 0.3 ease-in-out;
-}
-
 .menu-links {
   position: absolute;
-  top: 100%;
+  top: 151%;
   right: 0;
   background-color: #fff;
-  width: fit-content;
+  width: 400px;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
@@ -114,7 +98,8 @@ a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  border-bottom: 1px solid rgb(54, 53, 53);
+  font-size: 1rem;
   color: #fff;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -126,28 +111,21 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
-  background: rgb(153,145,145);
-  background: linear-gradient(45deg, rgba(153,145,145,1) 0%, rgba(105,104,104,1) 100%);
+  background: #323232;
+}
+.fa-times {
+  display: none;
+}
+.fa-times.open {
+  display: flex;
 }
 
-.hamburger-icon.open span:first-child{
-  transform: rotate(45deg) translate(10px, 5px);
-}
-.hamburger-icon.open span:nth-child(2){
-  opacity: 0;
-}
-.hamburger-icon.open span:last-child{
-  transform: rotate(-45deg) translate(10px, -5px);
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-}
-.hamburger-icon span:first-child {
-  opacity: 1;
-}
-.hamburger-icon span:first-child {
-  transform: none;
+.hamburger-slide-menu {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  min-height: 300px;
+  background-color: antiquewhite;
 }
 
 
