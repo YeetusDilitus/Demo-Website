@@ -40,8 +40,8 @@ nav, .nav-links {
 nav {
   justify-content: space-between;
   align-items: center;
-  height: 7vh;
-  background-color: #323232;
+  height: 6vh;
+  background: transparent;
   user-select: none;
 }
 
@@ -85,9 +85,8 @@ a:hover {
 
 .menu-links {
   position: absolute;
-  top: 151%;
+  top: 145%;
   right: 0;
-  background-color: #fff;
   width: 400px;
   max-height: 0;
   overflow: hidden;
@@ -111,21 +110,13 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
-  background: #323232;
+  background: #323232e0;
 }
 .fa-times {
   display: none;
 }
 .fa-times.open {
   display: flex;
-}
-
-.hamburger-slide-menu {
-  width: 100px;
-  position: absolute;
-  top: 10px;
-  min-height: 300px;
-  background-color: antiquewhite;
 }
 
 
