@@ -9,8 +9,15 @@
   }
 
   nav {
+    background-color: transparent;
+    transition: all 0.8s ease-in-out;
+  }
+  nav.colorChange {
     background-color: #323232;
     border-bottom: 1px solid rgb(46, 45, 45);
+  }
+  .hamburger-nav.sticky {
+    background-color: #323232; 
   }
 
   .fa-bars {
@@ -23,6 +30,10 @@
     background-repeat: no-repeat;
     background-position: 0 1px;
     background-color: #292929;
+  }
+
+  .section__text {
+    margin-top: 200px;
   }
 
   .logo_ham {
