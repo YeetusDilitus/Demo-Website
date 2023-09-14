@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="mediaqueries.css">
   <title>Mavro.dev</title>
 </head>
+
 <body>
   <nav id="desktop-nav">
-    <div class="logo">Mavro.dev</div>
-    <div>
+    <div class="logo" id="logo">Mavro.dev</div>
+    <div class="nav-bar">
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -23,11 +24,10 @@
   </nav>
 
   <nav id="hamburger-nav">
-    <div class="logo">Mavro.dev</div>
+    <div class="logo_ham">Mavro.dev</div>
     <div class="hamburger-menu">
-      <i class="fa fa-bars fa-lg" onclick="toggleMenu()"></i>
-      <i class="fa fa-times fa-lg" onclick="toggleMenu()"></i>
-      <div class="menu-links">
+      <i class="fa fa-bars fa-lg" id="button" onclick="toggleMenu()"></i>
+      <div class="menu-links" id="menu-links">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
@@ -39,24 +39,20 @@
 
   <section id="profile">
     <div class="section__text">
-      <!-- <p class="section__text__p1">Quick, Efficient, Modern</p> -->
-      <h1 class="title">Mavro.dev</h1>
+      <h1 class="title" id="title_id">Mavro.dev</h1>
       <p class="section__text__p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut labore.<br>et dolore magna aliqua, ut enim ad minim veniam.</p>
       <div class="btn-container">
-        <button class="btn btn-color-2">
+        <button class="btn btn-color-2" id="btn">
           Book a Call
         </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        <button class="btn btn-color-1" onclick="location.href='./#contact'" id="btn">
           Contact Info
         </button>
       </div>
-      <!-- <div id="socials-container">
-        <img src="./assets/linkedin.png" class="icon" onclick="location.href='https://linkedin.com/'">
-        <img src="./assets/github.png" class="icon" onclick="location.href='https://github.com/'">
-      </div> -->
     </div>
   </section>
 
   <script src="script.js"></script>
 </body>
+
 </html>

@@ -9,11 +9,12 @@
   }
 
   nav {
-    background-color: transparent;
+    background-color: #323232;
+    border-bottom: 1px solid rgb(46, 45, 45);
   }
 
   .fa-bars {
-    margin: 0 20px 5px 0;
+    padding: 20px;
     size: 30px;
     color: #fff;
   }
@@ -24,8 +25,9 @@
     background-color: #292929;
   }
 
-  .logo {
-    font-size: 1.3rem;
+  .logo_ham {
+    color: #fff;
+    font-size: 1.5rem;
     padding-left: 10px;
   }
 
@@ -35,18 +37,19 @@
     margin-right: 20px;
   }
 
-  .title {
-    font-size: 1px;
+  #title_id {
+    font-size: 3.9rem;
   }
 
   .section__text__p2 {
     font-size: 0.8rem;
   }
 
-  .btn {
-    width: 130px;
+  #btn {
+    width: 120px;
     height: 50px;
   }
+
 }
 
 @media screen and (max-width: 768px){
