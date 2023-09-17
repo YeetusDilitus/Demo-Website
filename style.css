@@ -13,8 +13,8 @@ body {
 
   font-family: "Linear","SF Pro Display","Segoe UI","Open Sans","Helvetica Neue",sans-serif;
 
-  background-image: url(./assets/background.jpg);
-  background-size: cover;
+  /* background-image: url(./assets/background.jpg);
+  background-size: cover; */
 }
 
 html {
@@ -74,6 +74,8 @@ a:hover {
 }
 
 .logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   font-size: 1.8rem;
   color: #fff;
   padding-left: 40px;
@@ -172,6 +174,12 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 100vh;
+
+  background-image: url(./assets/test-background4.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 0;
 }
 
 .section__text {
@@ -191,14 +199,15 @@ section {
 } */
 
 .section__text__p2 {
+  color: #fff;
   font-size: 1.2rem;
   padding: 10px 0 ;
 }
 
 .title {
+  color: #fff;
   font-size: 6.5rem;
   text-align: center;
-  color: #fff;
 }
 
 #socials-container {

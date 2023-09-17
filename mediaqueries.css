@@ -68,6 +68,9 @@
     padding-top: 40px;
     color: #fff;
   }
+  .about {
+    height: fit-content;
+  }
 
   .content-wrapper {
     display: block;
@@ -127,6 +130,68 @@
   .picture-wrapper {
     border: 3px solid transparent;
     border-radius: 10px;
+  }
+
+  .description-wrapper {
+    padding: 0;
+    margin: 0;
+
+    background-image: radial-gradient(circle, rgba(255,255,255) 0%, rgba(33,38,42,1) 95%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+  }
+  .description-wrapper h1 {
+    font-size: 2.4rem;
+  }
+  .description-wrapper h3 {
+    font-size: 1.3rem;
+    padding: 25px 30px 40px 30px;
+  }
+
+  .about-wrapper {
+    padding-bottom: 40px;
+  }
+
+  .card {
+    height: 180px;
+    width: 350px;
+  }
+  .card h1 {
+    font-size: 1rem;
+    padding: 5px 0 0 0;
+  }
+
+  .info-wrapper {
+    transition: all 0.6s ease;
+  }
+
+  .box-wrapper {
+    display: block;
+    margin: 40px 0 0 0;
+  }
+
+  .card:hover{
+    background: rgb(29,32,35);
+    background: radial-gradient(circle, rgba(29,32,35,1) 0%, rgba(182,182,182,0.01) 100%);
+    box-shadow: 5px 5px #1d2023;
+  }
+  .card:hover h3 {
+    bottom: 20px;
+    display: block;
+    user-select: none;
+  }
+  .card:hover .info-wrapper {
+    padding-bottom: 80px;
+  }
+
+  @keyframes slideIn {
+    from {
+      top: -140%;
+    }
+    to {
+      top: 0;
+    }
   }
 
 }
@@ -224,7 +289,7 @@
   }
 }
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1920px) {
 
   body {
     background-repeat: no-repeat;
