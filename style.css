@@ -9,8 +9,10 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  /* background-color: #111111; */
+  /* font-family: 'Poppins', sans-serif; */
+
+  font-family: "Linear","SF Pro Display","Segoe UI","Open Sans","Helvetica Neue",sans-serif;
+
   background-image: url(./assets/background.jpg);
   background-size: cover;
 }
@@ -20,7 +22,10 @@ html {
 }
 
 p {
-  color: #fff;
+  color: #f7f8f8;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 
@@ -49,7 +54,7 @@ nav {
   transition: all 1s ease;
 }
 nav.sticky {
-  background-color: #323232; 
+  background-color: #141719; 
 }
 
 .nav-links {
@@ -104,7 +109,7 @@ a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid rgb(46, 45, 45);
+  border-bottom: 1px solid rgb(36, 35, 35);
   font-size: 1rem;
   color: #fff;
   text-decoration: none;
@@ -118,7 +123,7 @@ a:hover {
 .menu-links.open {
   max-height: 300px;
   top: 93%;
-  background: #323232;
+  background: #141719;
 }
 @keyframes slideIn {
   from {
@@ -232,15 +237,4 @@ section {
 .btn-color-2:hover {
   background: #fff;
   color: #000;
-}
-
-
-/* ABOUT US SECTION STYLES */
-
-.about {
-  background-color: #36454F;
-  height: 100vh;
-  width: 100%;
-  padding: 0;
-  margin: 0;
 }
