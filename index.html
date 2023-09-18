@@ -7,8 +7,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="services.css">
   <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="service.css">
+  <link rel="stylesheet" href="team.css">
   <link rel="stylesheet" href="mediaqueries.css">
   <title>Mavro.dev</title>
 </head>
@@ -19,8 +20,8 @@
     <div class="nav-bar">
       <ul class="nav-links">
         <li><a href="#profile">Home</a></li>
-        <li><a href="#services">About</a></li>
-        <li><a href="#about">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -33,9 +34,9 @@
       <i class="fa fa-bars fa-lg" id="button" onclick="toggleMenu()"></i>
       <div class="menu-links" id="menu-links">
         <li><a href="#profile">Home</a></li>
-        <li><a href="#services">About</a></li>
-        <li><a href="#about">Services</a></li>
-        <li><a href="#">Team</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#team">Team</a></li>
         <li><a href="#">Contact</a></li>
       </div>
     </div>
@@ -56,33 +57,59 @@
     </div>
   </section>
 
-  <section class="services" id="services">
-    <div class="services-wrapper">
-      <div class="description-services-wrapper">
-        <h1>Why Choose Us</h1>
-        <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Orci nulla pellentesque dignissim enim sit amet venenatis urna. Iaculis urna id volutpat lacus. Vel facilisis volutpat est velit egestas dui id ornare. Nibh mauris cursus mattis molestie. Massa sapien faucibus et molestie ac feugiat sed.
-        </h3>
-        <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus.
-        </h3>
-      </div>
-      <div class="picture-wrapper">
-        <div class="picture">
-          <img src="assets/Pic1.jpg">
+  <section class="about" id="about">
+    <div class="about-wrapper">
+      <div class="devider">
+        <div class="about-section">
+          <h1 class="about-title">About us</h1>
+          <h3 class="sub-title">Lorem Ipsum</h3>
+          <h3 class="sub-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+          </h3>
+          <button class="about-btn"><span class="gradient"></span>Learn More</button>
         </div>
-        <div class="picture">
-          <img src="assets/Pic2.jpg">
-        </div>
-        <div class="picture">
-          <img src="assets/Pic3.jpg">
+        <div class="team-section">
+          <div class="title-wrapper">
+            <h2 class="team-title">Our Team</h2>
+            <i class="fa-solid fa-arrow-right fa-2xl"><a href="#team"></a></i>
+          </div>
+          <div class="team-card">
+            <div class="profile-name-wrapper">
+              <i class="fa-solid fa-user fa-lg"></i>
+              <h3 class="team-name">Jaclyn Stuart</h3>
+            </div>
+            <h4 class="team-position">CFO</h4>
+            <h4 class="team-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.
+            </h4>
+          </div>
+          <div class="team-card">
+            <div class="profile-name-wrapper">
+              <i class="fa-solid fa-user fa-lg"></i>
+              <h3 class="team-name">Kyla Stafford</h3>
+            </div>
+            <h4 class="team-position">Developer</h4>
+            <h4 class="team-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod dolor sit amet.
+            </h4>
+          </div>
+          <div class="team-card">
+            <div class="profile-name-wrapper">
+              <i class="fa-solid fa-user fa-lg"></i>
+              <h3 class="team-name">Jackson Campbell</h3>
+            </div>
+            <h4 class="team-position">Designer</h4>
+            <h4 class="team-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod consectetur dolor.
+            </h4>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="about" id="about">
-    <div class="about-wrapper">
+  <section class="service" id="service">
+    <div class="service-wrapper">
         <div class="description-wrapper">
           <h1>Our Services</h1>
           <h3>

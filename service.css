@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@300;400&display=swap');
+
+.service {
+  background-color: #161618;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.service-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.box-wrapper {
+  display: flex;
+  gap: 9px;
+  align-self: center;
+  padding-bottom: 100px;
+
+  border-bottom: 1px solid #242426;
+}
+
+.description-wrapper {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 50px 700px;
+  /* 56,60,64,1 */
+  /* 79,70,229,1 - INDIGO*/
+}
+.description-wrapper h1 {
+  font-size: 3.5rem;
+  /* font-weight: 800; */
+
+  background: linear-gradient(to right, #e879f9, #3730a3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.description-wrapper h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 30px 60px 0 60px;
+
+  background: linear-gradient(to right, #f8fafc, #6b7280);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card {
+  font-family: 'Raleway', sans-serif;
+  background-color: #161618;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 360px;
+  position: relative;
+  width: 400px;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all 0.6s ease;
+  position: relative;
+  user-select: none;
+  overflow: hidden;
+}
+.card:hover{
+  background: #161618;
+  background: radial-gradient(circle, #1d1d1f 10%,  #121213 90%);
+  box-shadow: 5px 5px #0b0b0c;
+}
+.card:hover h3 {
+  bottom: 110px;
+  display: block;
+}
+.card:hover .info-wrapper {
+  padding-bottom: 80px;
+}
+
+@keyframes slideIn {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.background-wrapper {
+  width: 32px;
+  height: 32px;
+  padding: 4px 10px 0 0;
+}
+
+.column1 {
+  gap: 10px;
+  display: block;
+}
+
+.column2 {
+  gap: 10px;
+  display: block;
+}
+
+.column3 {
+  gap: 10px;
+  display: block;
+}
+
+.info-wrapper {
+  padding: 0 20px;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.card h1 {
+  font-weight: 600;
+  text-align: center;
+  padding: 0; 
+  font-size: 1.3rem;
+}
+
+.card h3 {
+  user-select: none;
+  color: #a09f9f;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: -90px;
+  padding: 30% 10px 0 10px;
+  text-align: center;
+  transition: all 0.6s ease;
+
+  user-select: none;
+  font-weight: 600;
+
+  background: linear-gradient(to right, #f8fafc, #6b7280);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
