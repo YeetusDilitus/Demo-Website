@@ -5,32 +5,29 @@
 .about {
   background-color: #161618;
 
-  height: 70vh;
+  height: 100vh;
   width: 100%;
 
   overflow: hidden;
   
   padding: 0;
   margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-wrapper {
   color: #fff;
   font-family: 'Raleway', sans-serif;
-
-  height: 80vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
 }
 
 .devider {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1234px;
 
   padding-bottom: 100px;
   border-bottom: 1px solid #242426;
@@ -41,13 +38,16 @@
 }
 
 .about-title {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .sub-title {
-  font-size: 1.5rem;
-  padding-bottom: 40px;
+  font-size: 2rem;
+  padding-bottom: 25px;
+  text-align: center;
+
   background: linear-gradient(to right, #e879f9, 30%, #3730a3), 70%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -55,11 +55,9 @@
 }
 
 .sub-text {
-  width: 450px;
-  font-size: 1.5rem;
-  padding: 45px 0;
-  border-top: 2px solid #242426;
-  border-bottom: 2px solid #242426;
+  width: 1000px;
+  font-size: 1.7rem;
+  padding: 25px 0 15px 0;
 
   background: linear-gradient(to right, #f8fafc, #6b7280);
   -webkit-background-clip: text;
@@ -82,76 +80,4 @@
 .about-btn:hover {
   box-shadow: 5px 5px #0b0b0c;
   transform: translateY(3px);
-}
-
-.team-section {
-  padding: 0 150px 0 40px;
-  border-left: 2px solid #242426;
-}
-
-.title-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.team-title {
-  font-size: 3rem;
-  font-weight: 700;
-  padding-bottom: 10px;
-}
-
-.fa-arrow-right {
-  padding-left: 20px;
-  transition: all 0.3s ease-in;
-}
-.fa-arrow-right:hover {
-  color: rgba(255, 255, 255, 0.69);
-  transform: translateX(5px);
-}
-
-.team-card {
-  width: 450px;
-  height: fit-content;
-  background-color: #161618;
-  border: 3px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  cursor: pointer;
-  padding: 15px;
-  margin: 15px 0;
-  transition: all 0.6s ease-in;
-}
-.team-card:hover{
-  background:  #1d1d1f;
-  box-shadow: 5px 5px #0b0b0c;
-}
-
-.profile-name-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.profile-name-wrapper i {
-  padding: 10px 27px 5px 5px;
-}
-
-.team-name {
-  color: #fff;
-}
-
-.team-position {
-  background: linear-gradient(to right, #e879f9, 30%, #3730a3), 70%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-
-  padding-left: 50px;
-}
-
-.team-description {
-  background: linear-gradient(to right, #f8fafc, #6b7280);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-
-  padding-left: 50px;
 }
