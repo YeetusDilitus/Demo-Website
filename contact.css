@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@300;400&display=swap');
+
+.contact {
+  background-color: #161618;
+
+  height: 70vh;
+  width: 100%;
+
+  overflow: hidden;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+
+}
+
+.title-wrapper {
+  padding-top: 150px;
+}
+
+.contact-title-main {
+  font-size: 3.5rem;
+  font-weight: 300px;
+
+  background: linear-gradient(to right, #e879f9, #3730a3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contact-title {
+  font-size: 3rem;
+}
+
+.contact-text {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 10px;
+
+  background: linear-gradient(to right, #f8fafc, #6b7280);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 100px;
+}
+
+.contact-info-wrapper {
+  display: block;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 30px 20px 30px 20px;
+  transition: all 0.6s ease-in;
+
+  width: 40%;
+  padding: 40px;
+}
+.contact-info-wrapper:hover{
+  background:  #1d1d1f;
+  box-shadow: 5px 5px #0b0b0c;
+}
+
+.pin-title {
+  display: flex;
+}
+.fa-phone {
+  color: #fff;
+  padding-top: 22px;
+}
+.fa-location-dot {
+  color: #fff;
+  padding-top: 22px;
+}
+.email .fa-envelope {
+  color: #fff;
+  padding-top: 22px;
+}
+
+.address{
+  padding: 15px;
+  border-bottom: 1px solid #242426;
+}
+.phone {
+  padding: 15px;
+  border-bottom: 1px solid #242426;
+}
+.email {
+  padding: 15px;
+}
+
+.contact-title {
+  color: #fff;
+  font-size: 1.8rem;
+  padding-left: 8px;
+}
+.contact-us-text {
+  padding-left: 27px;
+  font-size: 1.3rem;
+
+  background: linear-gradient(to right, #f8fafc, #6b7280);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contact-form {
+  display: block;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 30px 20px 30px 20px;
+  transition: all 0.6s ease-in;
+
+  width: 40%;
+  padding: 40px;
+}
+.contact-form:hover{
+  background:  #1d1d1f;
+  box-shadow: 5px 5px #0b0b0c;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  color: transparent;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+  background: transparent;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #242426;
+  outline: none;
+  color: #fff;
+  resize: none;
+}
+
+.input-box span {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.input-box textarea {
+  height: 120px;
+}

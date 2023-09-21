@@ -40,7 +40,6 @@
 }
 .description-wrapper h1 {
   font-size: 3.5rem;
-  /* font-weight: 800; */
 
   background: linear-gradient(to right, #e879f9, #3730a3);
   -webkit-background-clip: text;

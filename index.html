@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="about.css">
   <link rel="stylesheet" href="service.css">
   <link rel="stylesheet" href="team.css">
+  <link rel="stylesheet" href="contact.css">
   <link rel="stylesheet" href="mediaqueries.css">
   <title>Mavro.dev</title>
 </head>
@@ -37,7 +38,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#service">Services</a></li>
         <li><a href="#team">Team</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </div>
     </div>
   </nav>
@@ -50,9 +51,6 @@
         <button class="btn btn-color-2" id="btn">
           Book a Call
         </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'" id="btn">
-          Contact Info
-        </button>
       </div>
     </div>
   </section>
@@ -64,9 +62,14 @@
           <h1 class="about-title">About us</h1>
           <h3 class="sub-title">Lorem Ipsum</h3>
           <h3 class="sub-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Magna aliqua. Pretium fusce id velit ut. Faucibus a pellent sit labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Magna aliqua. Pretium fusce id velit ut. Faucibus a pellent sit.
           </h3>
-          <button class="about-btn"><span class="gradient"></span>Learn More</button>
+          <div class="why-us-section">
+            <h3 class="why-us-title">Why Us</h3>
+            <h3 class="why-us-text">
+              Dolor purus non enim praesent elementum facilisis leo vel. Posuere morbi leo urna molestie. Ornare aenean euismod elementum nisi quis eleifend. Elit ut aliquam purus sit amet luctus venenatis lectus. Non arcu risus quis varius. Tristique senectus et netus et malesuada fames ac turpis. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis.
+            </h3>
+          </div>
         </div>
       </div>
     </div>
@@ -149,51 +152,119 @@
 
   <section class="team" id="team">
     <div class="team-wrapper">
-              <div class="title-wrapper">
+        <div class="title-wrapper">
           <h2 class="team-title">Our Team</h2>
-          <i class="fa-solid fa-arrow-right fa-2xl"><a href="#team"></a></i>
+          <h3 class="sub-team-title">Lorem Impsum</h3>
         </div>
       <div class="team-section">
         <div class="team-card" id="card1">
-          <div class="profile-name-wrapper">
-            <i class="fa-solid fa-user fa-lg"></i>
+          <div class="profile-wrapper">
             <h3 class="team-name">Jaclyn Stuart</h3>
+            <h4 class="team-position">CFO</h4>
+            <h4 class="team-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.Malesuada fames ac turpis egestas integer eget aliquet. Nam libero justo laoreet sit amet cursus sit amet dictum.
+            </h4>
           </div>
-          <h4 class="team-position">CFO</h4>
-          <h4 class="team-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.Malesuada fames ac turpis egestas integer eget aliquet. Nam libero justo laoreet sit amet cursus sit amet dictum.
-          </h4>
         </div>
         <div class="team-card" id="card2">
-          <div class="profile-name-wrapper">
-            <i class="fa-solid fa-user fa-lg"></i>
+          <div class="profile-wrapper">
             <h3 class="team-name">Kyla Stafford</h3>
+            <h4 class="team-position">Developer</h4>
+            <h4 class="team-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.
+            </h4>
           </div>
-          <h4 class="team-position">Developer</h4>
-          <h4 class="team-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.Malesuada fames ac turpis egestas.
-          </h4>
         </div>
         <div class="team-card" id="card3">
-          <div class="profile-name-wrapper">
-            <i class="fa-solid fa-user fa-lg"></i>
+          <div class="profile-wrapper">
             <h3 class="team-name">Jackson Campbell</h3>
+            <h4 class="team-position">Designer</h4>
+            <h4 class="team-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.
+            </h4>
           </div>
-          <h4 class="team-position">Designer</h4>
-          <h4 class="team-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.Malesuada fames ac turpis egestas.
-          </h4>
         </div>
         <div class="team-card" id="card4">
-          <div class="profile-name-wrapper">
-            <i class="fa-solid fa-user fa-lg"></i>
+          <div class="profile-wrapper">
             <h3 class="team-name">Oliver Bailey</h3>
+            <h4 class="team-position">Assistant</h4>
+            <h4 class="team-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.Malesuada fames ac turpis egestas integer eget aliquet. Nam libero justo laoreet sit amet cursus sit amet dictum.
+            </h4>
           </div>
-          <h4 class="team-position">Assistant</h4>
-          <h4 class="team-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod.Malesuada fames ac turpis egestas integer eget aliquet. Nam libero justo laoreet sit amet cursus sit amet dictum.
-          </h4>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-info">
+      <div class="title-wrapper">
+        <h1 class="contact-title-main">Contact Us</h1>
+        <h3 class="contact-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing. consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt. Amet consectetur adipiscing. consectetur adipiscing.
+        </h3>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info-wrapper">
+          <div class="address">
+            <div class="pin-title">
+              <i class="fa-solid fa-location-dot fa-lg"></i>
+              <h3 class="contact-title">Address</h3>
+            </div>
+            <h3 class="contact-us-text">
+              Skopje Demo Adress 23/19
+            </h3>
+          </div>
+          <div class="phone">
+            <div class="pin-title">
+              <i class="fa-solid fa-phone fa-lg"></i>
+              <h3 class="contact-title">Phone</h3>
+            </div>
+            <h3 class="contact-us-text">
+              +389-71-532-932
+            </h3>
+          </div>
+          <div class="email">
+            <div class="pin-title">
+              <i class="fa-solid fa-envelope fa-lg"></i>
+              <h3 class="contact-title">Email</h3>
+            </div>
+            <h3 class="contact-us-text">
+              demo-email@gmail.com
+            </h3>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form>
+
+            <h2 class="form-title">Got Any Question?</h2>
+
+            <div class="input-box">
+              <input type="text" name="" placeholder="Full Name" required="required">
+              <!-- <span class="form-name-text">Full Name</span> -->
+            </div>
+
+            <div class="input-box">
+              <input type="text" name="" placeholder="Email" required="required">
+              <!-- <span class="form-email-text">Email</span> -->
+            </div>
+
+            <div class="input-box">
+              <!-- <input type="text" placeholder="Type your Question..." required="required"> -->
+              <textarea required="required" placeholder="Type your Question..."></textarea>
+              <!-- <span class="form-question">Type your Question...</span> -->
+            </div>
+
+            <div class="input-box">
+              <input type="submit" name="" value="Send">
+            </div>
+
+          </form>
+
+        </div>
+
       </div>
     </div>
   </section>

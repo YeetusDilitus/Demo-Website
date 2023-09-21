@@ -46,21 +46,25 @@
   color: #fff;
   display: flex;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .team-title {
   font-size: 3rem;
   font-weight: 700;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 }
 
-.fa-arrow-right {
-  padding: 4px 0 42px 20px;
-  transition: all 0.3s ease-in;
-}
-.fa-arrow-right:hover {
-  color: rgba(255, 255, 255, 0.69);
-  transform: translateX(5px);
+.sub-team-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 50px;
+
+  background: linear-gradient(to right, #e879f9, 30%, #3730a3), 70%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .team-card {
@@ -78,13 +82,10 @@
   box-shadow: 5px 5px #0b0b0c;
 }
 
-.profile-name-wrapper {
+.profile-wrapper {
   display: flex;
-  align-items: center;
-}
-
-.profile-name-wrapper i {
-  padding: 10px 27px 5px 5px;
+  flex-direction: column;
+  padding-top: 40px;
 }
 
 .team-name {
@@ -96,8 +97,6 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-
-  padding-left: 50px;
 }
 
 .team-description {
@@ -105,8 +104,6 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-
-  padding: 20px 0 0 50px;
 }
 
 #card1 {
