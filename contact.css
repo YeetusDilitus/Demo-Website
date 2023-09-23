@@ -18,11 +18,13 @@
 }
 
 .contact-info {
-
+  height: 60vh;
+  padding-bottom: 66px;
+  border-bottom: 1px solid #242426;
 }
 
 .title-wrapper {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .contact-title-main {

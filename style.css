@@ -187,12 +187,13 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 100vh;
-/* 
-  background-image: url(./assets/test-background4.jpg);
-  background-size: cover;
-  background-position: center; */
 
-  background: #323234;
+  background-image: url(./assets/background-test.jpg);
+  background-size: cover;
+  background-position: center;
+
+  /* background-color: #121213; 
+  ./assets/test-background4.jpg*/
 
   width: 100%;
   margin: 0;
@@ -220,10 +221,21 @@ section {
   padding: 10px 0 ;
 }
 
+.sub-title-profile {
+  font-size: 1.5rem;
+  text-align: center;
+
+  background: linear-gradient(to right, #e879f9, 30%, #3730a3), 70%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .title {
   color: #fff;
   font-size: 6.5rem;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 #socials-container {
@@ -242,7 +254,7 @@ section {
   height: 60px;
   margin: 20px 15px 0 15px;
   background: transparent;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 3px solid #fff;
   color: #fff;
   font-size: 1rem;
