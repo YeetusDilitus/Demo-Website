@@ -5,7 +5,7 @@
 .about {
   background-color: #161618;
 
-  height: 100vh;
+  height: fit-content;
   width: 100%;
 
   overflow: hidden;
@@ -21,20 +21,22 @@
 .about-wrapper {
   color: #fff;
   font-family: 'Raleway', sans-serif;
-}
-
-.devider {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1234px;
 
+  padding-top: 100px;
   padding-bottom: 100px;
   border-bottom: 1px solid #242426;
 }
 
 .about-section {
   padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-title {
@@ -78,7 +80,7 @@
 }
 
 .why-us-text {
-  width: fit-content;
+  width: 1000px;
   font-size: 1.5rem;
   padding: 10px 0 50px 0;
   text-align: center;

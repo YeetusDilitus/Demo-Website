@@ -62,14 +62,51 @@
   }
 
 
+  .about-wrapper {
+    width: 401px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    border: none;
+  }
+  .about-section {
+    width: 400px;
+  }
   .about h1 {
     padding-top: 90px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-top: 40px;
     color: #fff;
   }
+  .sub-title {
+    font-size: 1.3rem;
+  }
+  .sub-text {
+    font-size: 1.3rem;
+    width: fit-content;
+    padding: 0 30px 20px 30px;
+  }
+  
+  .why-us-section {
+  }
+  .why-us-title {
+    font-size: 2rem;
+  }
+  .why-us-text {
+    font-size: 1.3rem;
+    width: 340px;
+  }
+
+
+
+
+
+
+
   .service {
     height: fit-content;
+  }
+  .service-wrapper {
+    padding: 50px 0 0 0;
   }
 
   .content-wrapper {
@@ -135,22 +172,13 @@
   .description-wrapper {
     padding: 0;
     margin: 0;
-
-    background-image: radial-gradient(circle, rgba(255,255,255) 0%, rgba(33,38,42,1) 95%);
-    background-position: 0 100%;
-    background-size: 100% 2px;
-    background-repeat: no-repeat;
   }
   .description-wrapper h1 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
   .description-wrapper h3 {
     font-size: 1.3rem;
     padding: 25px 30px 40px 30px;
-  }
-
-  .service-wrapper {
-    padding-bottom: 40px;
   }
 
   .card {
@@ -169,6 +197,13 @@
   .box-wrapper {
     display: block;
     margin: 40px 0 0 0;
+    padding-bottom: 50px;
+    border: none;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+    padding-top: 15px;
   }
 
   .card:hover{
@@ -192,6 +227,129 @@
     to {
       top: 0;
     }
+  }
+
+
+  .team-wrapper {
+    border: none;
+  }
+
+  .team-title {
+    font-size: 2.5rem;
+  }
+  .sub-team-title {
+    font-size: 1.3rem;
+  }
+
+  .team-card {
+    width: 300px;
+  }
+  .team-name {
+    padding-bottom: 5px;
+  }
+  .team-position {
+    padding-bottom: 5px;
+  }
+
+  #card1 {
+    width: 300px;
+  }
+  #card4 {
+    width: 300px;
+  }
+
+
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: none;
+  }
+  .title-wrapper {
+    width: 201px;
+    padding: 0;
+  }
+  .contact-title-main {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .contact-text {
+    font-size: 1.1rem;
+    width: 350px;
+  }
+
+  .contact-info-wrapper-main {
+    display: block;
+    margin: 10px 0 25px 0;
+  }
+
+  .contact-info-wrapper {
+    height: 170px;
+    width: 193;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .pin-title {
+    font-size: 0.8rem;
+  }
+  .fa-location-dot {
+    padding-top: 9px;
+  }
+  .fa-phone {
+    padding-top: 9px;
+  }
+  .fa-envelope {
+    padding-top: 9px;
+  }
+  .pin-title h3{
+    font-size: 1rem;
+  }
+  .contact-us-text {
+    font-size: 0.8rem;
+  }
+
+  .form-title {
+    font-size: 1rem;
+  }
+  .contact-form {
+    width: fit-content;
+  }
+
+
+
+  .footer-wrapper {
+    display: block;
+    margin-top: 50px;
+  }
+  .footer-wrapper a{
+    color: #fff;
+  }
+  .footer-wrapper h4{
+    font-size: 1.3rem;
+  }
+
+  .logo-wrapper {
+    padding-bottom: 30px;
+  }
+  .projects-wrapper {
+    
+  }
+  .company-wrapper {
+    
+  }
+  .help-wrapper {
+    height: fit-content;
+  }
+
+  .legal {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .legal p {
+    font-size: 0.8rem;
   }
 
 }
