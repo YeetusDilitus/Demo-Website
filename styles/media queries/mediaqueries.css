@@ -44,11 +44,6 @@
 
 
   /* Hero Media Querie Styles */
-  .hero {
-    background-image: url(/assets/hero-background.jpg);
-    background-size: cover;
-    background-position: center;
-  }
   .hero-wrapper {
     margin-top: 170px;
   }
