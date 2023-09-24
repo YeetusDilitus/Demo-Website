@@ -26,12 +26,6 @@
     color: #fff;
   }
 
-  body {
-    background-repeat: no-repeat;
-    background-position: 0 1px;
-    background-color: #292929;
-  }
-
   .section__text {
     margin-top: 200px;
   }
