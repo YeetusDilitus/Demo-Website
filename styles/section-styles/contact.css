@@ -1,7 +1,8 @@
+/* Font Families Import */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@300;400&display=swap');
 
+/* Section Styles */
 .contact {
   background-color: #161618;
 
@@ -17,29 +18,27 @@
   justify-content: center;
 }
 
-.contact-info {
-  margin-bottom: 100px;
+/* Section Wrapper Styles */
+.contact-wrapper {
+  margin: 100px 0;
 }
 
-.title-wrapper {
+/* Contact Title Wrapper Styles */
+.contact-title-wrapper {
   padding-top: 50px;
 }
-
-.contact-title-main {
+.contact-title-wrapper h1{
   font-size: 3.5rem;
   font-weight: 300px;
+
+  text-align: center;
 
   background: linear-gradient(to right, #e879f9, #3730a3);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-
-.contact-title {
-  font-size: 3rem;
-}
-
-.contact-text {
+.contact-title-wrapper h3{
   font-size: 1.5rem;
   text-align: center;
   padding-top: 10px;
@@ -50,7 +49,8 @@
   color: transparent;
 }
 
-.contact-info-wrapper-main {
+/* Contact Informtion Wrapper Styles */
+.contact-info-wrapper {
   margin-top: 100px;
 
   display: flex;
@@ -58,8 +58,7 @@
   justify-content: center;
   align-items: center;
 }
-
-.contact-info-wrapper {
+.contact-info-sub-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,11 +73,11 @@
   height: 345px;
   padding: 40px;
 }
-.contact-info-wrapper:hover{
+.contact-info-sub-wrapper:hover{
   background:  #1d1d1f;
   box-shadow: 5px 5px #0b0b0c;
 }
-
+/* Contact Title Sub Wrapper Styles */
 .pin-title {
   display: flex;
 }
@@ -94,7 +93,6 @@
   color: #fff;
   padding-top: 17px;
 }
-
 .address{
   padding: 15px;
   border-bottom: 1px solid #242426;
@@ -109,8 +107,7 @@
   padding: 15px;
   width: 259.83px;
 }
-
-.contact-title {
+.contact-title{
   color: #fff;
   font-size: 1.5rem;
   padding-left: 8px;
@@ -124,7 +121,6 @@
   background-clip: text;
   color: transparent;
 }
-
 .contact-form {
   display: block;
   border: 3px solid rgba(255, 255, 255, 0.1);
@@ -141,6 +137,7 @@
   box-shadow: 5px 5px #0b0b0c;
 }
 
+/* Form Wrapper Styles */
 .form-title {
   font-size: 1.5rem;
   text-align: center;
@@ -148,13 +145,11 @@
   font-weight: 500;
   color: #fff;
 }
-
 .contact-form .input-box {
   position: relative;
   width: 100%;
   color: transparent;
 }
-
 .contact-form .input-box input,
 .contact-form .input-box textarea {
   background: transparent;
@@ -168,12 +163,6 @@
   color: #fff;
   resize: none;
 }
-
-.input-box span {
-  color: #fff;
-  font-size: 1.2rem;
-}
-
 .input-box textarea {
   height: 120px;
 }

@@ -1,338 +1,377 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="about.css">
-  <link rel="stylesheet" href="service.css">
-  <link rel="stylesheet" href="team.css">
-  <link rel="stylesheet" href="contact.css">
-  <link rel="stylesheet" href="footer.css">
-  <link rel="stylesheet" href="mediaqueries.css">
 
-  <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <head>
 
-  <title>Mavro.dev</title>
-</head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body>
-  <nav id="desktop-nav" class="navBar">
-    <div class="logo" id="logo">Mavro.dev</div>
-    <div class="nav-bar">
-      <ul class="nav-links">
-        <li><a href="#profile">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#service">Services</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    <!-- Font CDN's -->
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    >
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    >
 
-  <nav id="hamburger-nav" class="hamburger-nav">
-    <div class="logo_ham">Mavro.dev</div>
-    <div class="hamburger-menu">
-      <i class="fa fa-bars fa-lg" id="button" onclick="toggleMenu()"></i>
-      <div class="menu-links" id="menu-links">
-        <li><a href="#profile">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#service">Services</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <!-- Stylesheet Links -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/nav-styles/nav.css">
+    <link rel="stylesheet" href="./styles/nav-styles/hamburger.css">
+    <link rel="stylesheet" href="./styles/start-end-styles/hero.css">
+    <link rel="stylesheet" href="./styles/section-styles/about.css">
+    <link rel="stylesheet" href="./styles/section-styles/service.css">
+    <link rel="stylesheet" href="./styles/section-styles/team.css">
+    <link rel="stylesheet" href="./styles/section-styles/contact.css">
+    <link rel="stylesheet" href="./styles/start-end-styles/footer.css">
+    <link rel="stylesheet" href="./styles/media queries/mediaqueries.css">
+
+    <!-- Title -->
+    <title>Mavro.dev</title>
+
+  </head>
+
+  <body>
+    <nav class="navBar">
+      <div class="logo" id="logo">Mavro.dev</div>
+      <div class="nav-bar">
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <section id="profile">
-    <div class="section__text">
-      <h3 class="sub-title-profile">Easy, Eficcient, Reliable</h3>
-      <h1 class="title" id="title_id">Mavro.dev</h1>
-      <p class="section__text__p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut labore.<br>et dolore magna aliqua, ut enim ad minim veniam.</p>
-      <div class="btn-container">
-        <button class="btn btn-color-2" id="btn">
-          Book a Call
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <section class="about" id="about">
-    <div class="about-wrapper">
-      <div class="about-section">
-        <h1 class="about-title">About us</h1>
-        <h3 class="sub-title">Lorem Ipsum</h3>
-        <div class="text-wrapper-about">
-          <h3 class="sub-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Magna aliqua. Pretium fusce id velit ut. Faucibus a pellent sit.
-          </h3>
+    <nav class="hamburger-nav">
+      <div class="logo_ham">Mavro.dev</div>
+      <div class="hamburger-menu">
+        <i class="fa fa-bars fa-lg" id="button" onclick="toggleMenu()"></i>
+        <div class="menu-links" id="menu-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </div>
       </div>
-      <div class="why-us-section">
-        <h3 class="why-us-title">Why Us</h3>
-        <h3 class="why-us-text">
-              Dolor purus non enim praesent elementum facilisis leo vel. Posuere morbi leo urna molestie. Ornare aenean euismod elementum nisi quis eleifend. Elit ut aliquam purus sit amet luctus venenatis lectus. Non arcu risus quis varius. Tristique senectus et netus et malesuada fames ac turpis. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis.
-        </h3>
-      </div>
-    </div>
-  </section>
+    </nav>
 
-  <section class="service" id="service">
-    <div class="service-wrapper">
-        <div class="description-wrapper">
+    <section class="hero" id="hero">
+
+      <div class="hero-wrapper">
+
+        <h3>Easy, Eficcient, Reliable</h3>
+        <h1>Mavro.dev</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut labore.<br>et dolore magna aliqua, ut enim ad minim veniam.
+        </p>
+
+        <div class="hero-button-container">
+          <button class="btn">Book a Call</button>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+      <div class="about-wrapper">
+        <div class="about-section">
+          <h1>About us</h1>
+          <h3>Lorem Ipsum</h3>
+          <div class="about-text-wrapper">
+            <h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Magna aliqua. Pretium fusce id velit ut. Faucibus a pellent sit.
+            </h3>
+          </div>
+        </div>
+
+        <div class="why-us-section">
+          <h3>Why Us</h3>
+          <h4>
+                Dolor purus non enim praesent elementum facilisis leo vel. Posuere morbi leo urna molestie. Ornare aenean euismod elementum nisi quis eleifend. Elit ut aliquam purus sit amet luctus venenatis lectus. Non arcu risus quis varius. Tristique senectus et netus et malesuada fames ac turpis. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis.
+          </h4>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="service" id="service">
+
+      <div class="service-wrapper">
+
+        <div class="service-text-wrapper">
           <h1>Our Services</h1>
           <h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium fusce id velit ut. Faucibus a pellentesque sit amet. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium fusce id velit ut. Faucibus a pellentesque sit amet. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus. 
           </h3>
         </div>
 
-      <div class="box-wrapper">
-        <div class="column1">
-          <div class="card">
-            <div class="info-wrapper">
-              <div class="background-wrapper">
-                <i class="fa-solid fa-globe fa-2xl"></i>
+        <div class="service-card-wrapper">
+
+          <div class="column-1">
+
+            <div class="card">
+              <div class="info-wrapper">
+                <div class="background-wrapper">
+                  <i class="fa-solid fa-globe fa-2xl"></i>
+                </div>
+                <h1>SOCIAL MEDIA MANAGEMENT</h1>
               </div>
-              <h1>SOCIAL MEDIA MANAGEMENT</h1>
+              <h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+              </h3>
             </div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
-          </div>
-          <div class="card">
-            <div class="info-wrapper">
-              <div class="background-wrapper">
-                <i class="fa-solid fa-plus fa-2xl"></i>
+
+            <div class="card">
+              <div class="info-wrapper">
+                <div class="background-wrapper">
+                  <i class="fa-solid fa-plus fa-2xl"></i>
+                </div>
+                <h1>CONTENT CREATION</h1>
               </div>
-              <h1>CONTENT CREATION</h1>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
             </div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
+
           </div>
-        </div>
-        <div class="column2">
-          <div class="card">
-            <div class="info-wrapper">
-              <div class="background-wrapper">
-                <i class="fa-regular fa-envelope fa-2xl"></i>
+
+          <div class="column-2">
+            <div class="card">
+              <div class="info-wrapper">
+                <div class="background-wrapper">
+                  <i class="fa-regular fa-envelope fa-2xl"></i>
+                </div>
+                <h1>EMAIL MARKETING</h1>
               </div>
-              <h1>EMAIL MARKETING</h1>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
             </div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
-          </div>
-          <div class="card">
-            <div class="info-wrapper">
-              <div class="background-wrapper">
-                <i class="fa-brands fa-instagram fa-2xl"></i>
+            <div class="card">
+              <div class="info-wrapper">
+                <div class="background-wrapper">
+                  <i class="fa-brands fa-instagram fa-2xl"></i>
+                </div>
+                <h1>INSTAGRAM GROWTH</h1>
               </div>
-              <h1>INSTAGRAM GROWTH</h1>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
             </div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
           </div>
-        </div>
-        <div class="column3">
-          <div class="card">
-            <div class="info-wrapper">
-              <div class="background-wrapper">
-                <i class="fa-brands fa-facebook fa-2xl"></i>
+
+          <div class="column-3">
+            <div class="card">
+              <div class="info-wrapper">
+                <div class="background-wrapper">
+                  <i class="fa-brands fa-facebook fa-2xl"></i>
+                </div>
+                <h1>FACEBOOK GROWTH</h1>
               </div>
-              <h1>FACEBOOK GROWTH</h1>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
             </div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
-          </div>
-          <div class="card">
-            <div class="info-wrapper">
-              <div class="background-wrapper">
-                <i class="fa-brands fa-linkedin fa-2xl"></i>
+            <div class="card">
+              <div class="info-wrapper">
+                <div class="background-wrapper">
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </div>
+                <h1>LINKEDIN GROWTH</h1>
               </div>
-              <h1>LINKEDIN GROWTH</h1>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
             </div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <section class="team" id="team">
-    <div class="team-wrapper">
-        <div class="title-wrapper">
-          <h2 class="team-title">Our Team</h2>
-          <h3 class="sub-team-title">Lorem Impsum</h3>
-        </div>
-      <div class="team-section">
-        <div class="team-card" id="card1">
-          <div class="profile-wrapper">
-            <h3 class="team-name">Jaclyn Stuart</h3>
-            <h4 class="team-position">CFO</h4>
-            <h4 class="team-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod. Malesuada fames ac turpis egestas integer.
-            </h4>
-          </div>
-        </div>
-        <div class="team-card" id="card2">
-          <div class="profile-wrapper">
-            <h3 class="team-name">Kyla Stafford</h3>
-            <h4 class="team-position">Developer</h4>
-            <h4 class="team-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod. Malesuada fames ac turpis egestas integer.
-            </h4>
-          </div>
-        </div>
-        <div class="team-card" id="card3">
-          <div class="profile-wrapper">
-            <h3 class="team-name">Jackson Campbell</h3>
-            <h4 class="team-position">Designer</h4>
-            <h4 class="team-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod. Malesuada fames ac turpis egestas integer.
-            </h4>
-          </div>
-        </div>
-        <div class="team-card" id="card4">
-          <div class="profile-wrapper">
-            <h3 class="team-name">Oliver Bailey</h3>
-            <h4 class="team-position">Assistant</h4>
-            <h4 class="team-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod. Malesuada fames ac turpis egestas integer.
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="contact-info">
-
-      <div class="title-wrapper">
-
-        <h1 class="contact-title-main">Contact Us</h1>
-
-        <h3 class="contact-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing. consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt. Amet consectetur adipiscing. consectetur adipiscing.
-        </h3>
-        
-      </div>
-
-      <div class="contact-info-wrapper-main">
-
-          <div class="contact-info-wrapper">
-
-            <div class="address">
-
-              <div class="pin-title">
-                <i class="fa-solid fa-location-dot fa-lg"></i>
-                <h3 class="contact-title">Address</h3>
-              </div>
-
-              <h3 class="contact-us-text">Skopje Demo Adress 23/19</h3>
-
-            </div>
-
-            <div class="phone">
-
-              <div class="pin-title">
-                <i class="fa-solid fa-phone fa-lg"></i>
-                <h3 class="contact-title">Phone</h3>
-              </div>
-
-              <h3 class="contact-us-text">+389-71-532-932</h3>
-
-            </div>
-
-            <div class="email">
-
-              <div class="pin-title">
-                <i class="fa-solid fa-envelope fa-lg"></i>
-                <h3 class="contact-title">Email</h3>
-              </div>
-
-              <h3 class="contact-us-text">demo-email@gmail.com</h3>
-
-            </div>
-
           </div>
 
-        <div class="contact-form">
-          <form>
-
-            <h2 class="form-title">Got Any Question?</h2>
-
-            <div class="input-box">
-              <input type="text" name="" placeholder="Full Name" required="required">
-            </div>
-
-            <div class="input-box">
-              <input type="text" name="" placeholder="Email" required="required">
-            </div>
-
-            <div class="input-box">
-              <textarea required="required" placeholder="Type your Question..."></textarea>
-            </div>
-
-            <div class="input-box">
-              <input type="submit" name="" value="Send">
-            </div>
-
-          </form>
         </div>
 
       </div>
 
-    </div>
+    </section>
 
-  </section>
+    <section class="team" id="team">
 
-  <section class="footer">
-    <div class="footer-wrapper">
+      <div class="team-wrapper">
 
-      <div class="logo-wrapper">
-        <h1>Mavro.dev</h1>
-        <p>Labore et dolore magna aliqua. Pretium fusce id velit ut. Faucibus a pellentesque sit.</p>
+          <div class="team-title-wrapper">
+            <h2>Our Team</h2>
+            <h3>Lorem Impsum</h3>
+          </div>
 
-        <div class="icon-wrapper">
-          <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
-          <a href=""><i class="fa-brands fa-square-twitter fa-xl"></i></a>
-          <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+        <div class="team-section">
+          <div class="team-card" id="card1">
+            <div class="team-profile-wrapper">
+              <h3>Jaclyn Stuart</h3>
+              <h4>CFO</h4>
+              <h5>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod. Malesuada fames ac turpis egestas integer.
+              </h5>
+            </div>
+          </div>
+          <div class="team-card" id="card2">
+            <div class="team-profile-wrapper">
+              <h3>Kyla Stafford</h3>
+              <h4>Developer</h4>
+              <h5>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod. Malesuada fames ac turpis egestas integer.
+              </h5>
+            </div>
+          </div>
+          <div class="team-card" id="card3">
+            <div class="team-profile-wrapper">
+              <h3>Jackson Campbell</h3>
+              <h4>Designer</h4>
+              <h5>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod. Malesuada fames ac turpis egestas integer.
+              </h5>
+            </div>
+          </div>
+          <div class="team-card" id="card4">
+            <div class="team-profile-wrapper">
+              <h3>Oliver Bailey</h3>
+              <h4>Assistant</h4>
+              <h5>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod adipiscing eiusmod. Malesuada fames ac turpis egestas integer.
+              </h5>
+            </div>
+          </div>
         </div>
+
       </div>
 
-      <div class="projects-wrapper">
-        <h4>Projects</h4>
+    </section>
 
-        <li> <a href=""> Project 1 </a> </li>
-        <li> <a href=""> Project 2 </a> </li>
-        <li> <a href=""> Project 3 </a> </li>
-        <li> <a href=""> Project 4 </a> </li>
+    <section class="contact" id="contact">
+
+      <div class="contact-wrapper">
+
+        <div class="contact-title-wrapper">
+          <h1 class="contact-title-main">Contact Us</h1>
+          <h3 class="contact-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing. consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt. Amet consectetur adipiscing. consectetur adipiscing.
+          </h3>
+        </div>
+
+        <div class="contact-info-wrapper">
+
+          <div class="contact-info-sub-wrapper">
+
+              <div class="address">
+
+                <div class="pin-title">
+                  <i class="fa-solid fa-location-dot fa-lg"></i>
+                  <h3 class="contact-title">Address</h3>
+                </div>
+
+                <h3 class="contact-us-text">Skopje Demo Adress 23/19</h3>
+
+              </div>
+
+              <div class="phone">
+
+                <div class="pin-title">
+                  <i class="fa-solid fa-phone fa-lg"></i>
+                  <h3 class="contact-title">Phone</h3>
+                </div>
+
+                <h3 class="contact-us-text">+389-71-532-932</h3>
+
+              </div>
+
+              <div class="email">
+
+                <div class="pin-title">
+                  <i class="fa-solid fa-envelope fa-lg"></i>
+                  <h3 class="contact-title">Email</h3>
+                </div>
+
+                <h3 class="contact-us-text">demo-email@gmail.com</h3>
+
+              </div>
+
+          </div>
+
+          <div class="contact-form">
+            <form>
+
+              <h2 class="form-title">Got Any Question?</h2>
+
+              <div class="input-box">
+                <input type="text" name="" placeholder="Full Name" required="required">
+              </div>
+
+              <div class="input-box">
+                <input type="text" name="" placeholder="Email" required="required">
+              </div>
+
+              <div class="input-box">
+                <textarea required="required" placeholder="Type your Question..."></textarea>
+              </div>
+
+              <div class="input-box">
+                <input type="submit" name="" value="Send">
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
       </div>
 
-      <div class="company-wrapper">
-        <h4>Company</h4>
+    </section>
 
-        <li> <a href="#profile"> Home </a> </li>
-        <li> <a href="#about"> About </a> </li>
-        <li> <a href="#service"> Services </a> </li>
-        <li> <a href="#team"> Team </a> </li>
-        <li> <a href="#contact"> Contact </a> </li>
+    <section class="footer">
+      <div class="footer-wrapper">
+
+        <div class="logo-wrapper">
+          <h1>Mavro.dev</h1>
+          <p>Labore et dolore magna aliqua. Pretium fusce id velit ut. Faucibus a pellentesque sit.</p>
+
+          <div class="icon-wrapper">
+            <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter fa-xl"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+          </div>
+        </div>
+
+        <div class="projects-wrapper">
+          <h4>Projects</h4>
+
+          <li> <a href=""> Project 1 </a> </li>
+          <li> <a href=""> Project 2 </a> </li>
+          <li> <a href=""> Project 3 </a> </li>
+          <li> <a href=""> Project 4 </a> </li>
+        </div>
+
+        <div class="company-wrapper">
+          <h4>Company</h4>
+
+          <li> <a href="#profile"> Home </a> </li>
+          <li> <a href="#about"> About </a> </li>
+          <li> <a href="#service"> Services </a> </li>
+          <li> <a href="#team"> Team </a> </li>
+          <li> <a href="#contact"> Contact </a> </li>
+        </div>
+
+        <div class="help-wrapper">
+          <h4>Help</h4>
+
+          <li> <a href=""> Privacy </a> </li>
+          <li> <a href=""> Terms </a> </li>
+        </div>
+
       </div>
 
-      <div class="help-wrapper">
-        <h4>Help</h4>
-
-        <li> <a href=""> Privacy </a> </li>
-        <li> <a href=""> Conditions </a> </li>
+      <div class="legal">
+        <p>Copyright © 2023 Konstantinos Mavropulos | All Rights Reserved</p>
       </div>
+    </section>
 
-    </div>
+    <script src="./src/script.js"></script>
 
-    <div class="legal">
-      <p>Copyright © 2023 Konstantinos Mavropulos | All Rights Reserved</p>
-    </div>
-  </section>
-
-  <script src="script.js"></script>
-</body>
+  </body>
 
 </html>

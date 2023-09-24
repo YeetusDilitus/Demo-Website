@@ -1,0 +1,62 @@
+.hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-links {
+  position: absolute;
+  top: -410%;
+  right: 0;
+  width: 400px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.6s ease-in-out;
+}
+
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid rgb(36, 35, 35);
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+  top: 93%;
+  background: #141719;
+}
+@keyframes slideIn {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    top: 0;
+  }
+  to {
+    top: -100%;
+  }
+}
+.fa-times {
+  display: none;
+}
+.fa-times.open {
+  display: flex;
+}

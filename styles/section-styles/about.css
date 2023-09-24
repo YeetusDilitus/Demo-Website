@@ -1,7 +1,8 @@
+/* Font Families Import */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@300;400&display=swap');
 
+/* Section Styles */
 .about {
   background-color: #161618;
 
@@ -18,9 +19,11 @@
   align-items: center;
 }
 
+/* Section Wrapper Styles */
 .about-wrapper {
   color: #fff;
   font-family: 'Raleway', sans-serif;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,24 +31,25 @@
 
   padding-top: 100px;
   padding-bottom: 100px;
+
   border-bottom: 1px solid #242426;
 }
 
+/* About Container Styles */
 .about-section {
   padding: 0 100px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-.about-title {
+.about-section h1{
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
 }
-
-.sub-title {
+.about-section h3{
   font-size: 1.8rem;
   padding-bottom: 15px;
   text-align: center;
@@ -55,8 +59,7 @@
   background-clip: text;
   color: transparent;
 }
-
-.sub-text {
+.about-text-wrapper h3 {
   width: 1000px;
   font-size: 1.5rem;
   padding: 10px 0 50px 0;
@@ -69,17 +72,16 @@
   color: transparent;
 }
 
+/* Why Us Container Styles */
 .why-us-section {
   padding: 0 100px;
 }
-
-.why-us-title {
+.why-us-section h3{
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
 }
-
-.why-us-text {
+.why-us-section h4{
   width: 1000px;
   font-size: 1.5rem;
   padding: 10px 0 50px 0;

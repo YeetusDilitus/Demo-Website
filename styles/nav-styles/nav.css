@@ -1,0 +1,46 @@
+nav, .nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  height: 6vh;
+  background: transparent;
+  user-select: none;
+  z-index: 100;
+  transition: all 1s ease;
+}
+nav.sticky {
+  background-color: #141719; 
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.3rem;
+  padding-right: 40px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff96;
+  border-bottom: 2px solid #ffffff96;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #fff;
+  padding-left: 40px;
+  user-select: none;
+}
+.logo:hover {
+  cursor: default;
+}
