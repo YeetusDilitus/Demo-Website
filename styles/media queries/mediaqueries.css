@@ -1,10 +1,10 @@
 @media screen and (max-width: 397px) {
 
-  #desktop-nav {
+  .navBar {
     display: none;
   }
 
-  #hamburger-nav {
+  .hamburger-nav {
     display: flex;
   }
 
@@ -48,164 +48,89 @@
     margin-right: 20px;
   }
 
-  #title_id {
-    font-size: 3.9rem;
+
+  /* Hero Media Querie Styles */
+  .hero-wrapper {
+    margin-top: 170px;
+  }
+  .hero-wrapper h1{
+    font-size: 4rem;
+  }
+  .hero-wrapper h3{
+    font-size: 1.3rem;
+  }
+  .hero-wrapper p{
+    font-size: 0.9rem;
+  }
+  .hero-button-container button{
+    width: 180px;
+    height: 60px;
   }
 
-  .section__text__p2 {
-    font-size: 0.8rem;
-  }
 
-  #btn {
-    width: 120px;
-    height: 50px;
-  }
-
-
+  /* About Media Querie Styles */
   .about-wrapper {
     width: 401px;
-    padding-top: 50px;
-    padding-bottom: 5px;
+    padding: 100px 0 80px 0;
     border: none;
   }
   .about-section {
     width: 400px;
   }
-  .about h1 {
-    padding-top: 90px;
-    font-size: 2.5rem;
-    padding-top: 40px;
-    color: #fff;
+  .about-section h1 {
+  font-size: 3.5rem;
   }
-  .sub-title {
+  .about-section h3 {
     font-size: 1.3rem;
   }
-  .sub-text {
+  .about-text-wrapper h3 {
     font-size: 1.3rem;
-    width: fit-content;
-    padding: 0 30px 20px 30px;
+    width: 350px;
   }
-  
-  .why-us-section {
+  .why-us-section h3 {
+    font-size: 2.8rem;
   }
-  .why-us-title {
-    font-size: 2rem;
-  }
-  .why-us-text {
+  .why-us-section h4 {
     font-size: 1.3rem;
-    width: 340px;
+    width: 350px;
+    padding-bottom: 10px;
   }
 
 
-
-
-
-
-
+  /* Service Media Querie Styles */
   .service {
     height: fit-content;
   }
   .service-wrapper {
-    padding: 50px 0 0 0;
+    padding: 80px 0;
   }
-
-  .content-wrapper {
-    display: block;
-    margin-top: 30px;
+  .service-text-wrapper {
+    padding-top: 10px;
   }
-  .text-wrapper {
-    padding: 0;
-    width: 100%;
+  .service-text-wrapper h1 {
+    font-size: 2.8rem;
   }
-
-  .content-wrapper img{
-    align-self: center;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    border-radius: 0;
-  }
-
-  .content-wrapper h3 {
-    font-size: 1.7rem;
-    margin: 300px 0 20px 0;
-    text-align: center;
-  }
-  .test {
-    margin: 0;
-  }
-
-  .text-box {
-    width: 50px;
-    margin: 0;
-  }
-  .text-box2 {
-    width: 50px;
-    margin-top: 20px;
-  }
-  .text-box p {
-    font-size: 0.8rem;
-    line-height: 18px;
-    text-align: center;
-    padding: 20px 6px 20px 6px;
-    margin-left: 12px;
-    width: 350px;
-    border: 3px solid #1c1b1b;
-    border-radius: 10px;
-  }
-    .text-box2 p {
-    font-size: 0.8rem;
-    line-height: 18px;
-    text-align: center;
-    padding: 20px 6px 20px 6px;
-    margin-left: 12px;
-    width: 350px;
-    border: 3px solid #1c1b1b;
-    border-radius: 10px;
-  }
-
-  .picture-wrapper {
-    border: 3px solid transparent;
-    border-radius: 10px;
-  }
-
-  .description-wrapper {
-    padding: 0;
-    margin: 0;
-  }
-  .description-wrapper h1 {
-    font-size: 2.5rem;
-  }
-  .description-wrapper h3 {
+  .service-text-wrapper h3 {
     font-size: 1.3rem;
-    padding: 25px 30px 40px 30px;
+    width: 350px;
   }
-
+  .service-card-wrapper {
+    display: block;
+    padding: 0;
+    border: none;
+  }
+  .info-wrapper h1 {
+    font-size: 1rem;
+    padding: 5px 0 0 0;
+  }
   .card {
     height: 180px;
     width: 350px;
   }
-  .card h1 {
-    font-size: 1rem;
-    padding: 5px 0 0 0;
-  }
-
-  .info-wrapper {
-    transition: all 0.6s ease;
-  }
-
-  .box-wrapper {
-    display: block;
-    margin: 40px 0 0 0;
-    padding-bottom: 50px;
-    border: none;
-  }
-
   .card h3 {
     font-size: 1rem;
     padding-top: 15px;
   }
-
   .card:hover{
     background: rgb(29,32,35);
     background: radial-gradient(circle, rgba(29,32,35,1) 0%, rgba(182,182,182,0.01) 100%);
@@ -219,7 +144,6 @@
   .card:hover .info-wrapper {
     padding-bottom: 80px;
   }
-
   @keyframes slideIn {
     from {
       top: -140%;
@@ -230,17 +154,18 @@
   }
 
 
+  /* Team Media Querie Styles */
   .team-wrapper {
     border: none;
+    padding: 80px 0 80px 0;
   }
-
-  .team-title {
-    font-size: 2.5rem;
+  .team-title-wrapper h2 {
+    font-size: 2.8rem;
   }
-  .sub-team-title {
+  .team-title-wrapper h3 {
     font-size: 1.3rem;
+    padding: 0 0 25px 0;
   }
-
   .team-card {
     width: 300px;
   }
@@ -250,36 +175,57 @@
   .team-position {
     padding-bottom: 5px;
   }
-
   #card1 {
     width: 300px;
   }
   #card4 {
     width: 300px;
+    margin: 0 0 10px 0;
   }
 
 
-
+  /* Contact Media Querie Styles */
+  .contact {
+    height: 130vh;
+  }
   .contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    height: fit-content;
     border: none;
   }
-  .title-wrapper {
-    width: 201px;
-    padding: 0;
+  .contact-wrapper {
+    width: 401px;
+    padding: 80px 0;
+    margin: 0;
+
+    display: block;
   }
-  .contact-title-main {
-    font-size: 2.5rem;
+  .contact-title-wrapper {
+    padding: 0;
+    width: 397px;
+  }
+  .contact-title-wrapper h1 {
+    font-size: 2.8rem;
     text-align: center;
   }
-  .contact-text {
-    font-size: 1.1rem;
-    width: 350px;
+  .contact-title-wrapper h3 {
+    font-size: 1.2rem;
   }
+
+  .contact-info-wrapper {
+    height: fit-content;
+    display: block;
+    margin: 0;
+  }
+  .contact-info-sub-wrapper {
+    height: 250px;
+    width: 350px;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .contact-form form{
+    width: 270px;
+  }
+
 
   .contact-info-wrapper-main {
     display: block;
@@ -310,13 +256,14 @@
   .contact-us-text {
     font-size: 0.8rem;
   }
-
   .form-title {
     font-size: 1rem;
   }
   .contact-form {
     width: fit-content;
   }
+
+
 
 
 
